@@ -1,0 +1,40 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #e6f2ff;
+  color: #002b45;
+  padding: 20px;
+}
+
+.dark-mode {
+  background-color: #002b45;
+  color: #ffffff;
+}
+
+header, section {
+  margin-bottom: 30px;
+  border: 2px solid #006bb6;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+button {
+  background-color: #006bb6;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005a9c;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
