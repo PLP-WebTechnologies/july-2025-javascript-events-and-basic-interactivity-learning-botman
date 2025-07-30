@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Somalia Interactive Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Ku Soo Dhawoow! (Welcome!)</h1>
+    <button id="themeToggle">Toggle Light/Dark Mode</button>
+  </header>
+
+  <section id="counterSection">
+    <h2>Button Counter Game</h2>
+    <button id="counterBtn">Click Me!</button>
+    <p>You clicked <span id="clickCount">0</span> times.</p>
+  </section>
+
+  <section id="formSection">
+    <h2>Register Below</h2>
+    <form id="registrationForm">
+      <label>Magaca (Name): <input type="text" id="name" /></label>
+      <span class="error" id="nameError"></span><br />
+
+      <label>Email: <input type="text" id="email" /></label>
+      <span class="error" id="emailError"></span><br />
+
+      <label>Password: <input type="password" id="password" /></label>
+      <span class="error" id="passwordError"></span><br />
+
+      <button type="submit">Submit</button>
+      <p class="success" id="successMsg"></p>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
